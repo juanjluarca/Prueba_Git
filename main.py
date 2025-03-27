@@ -1,4 +1,4 @@
-print("hola mundo, pero ahora desde Windows!")
+print("Hola mundo! Desde WSL")
 
 
 
