@@ -1,0 +1,34 @@
+# 🚀 Ignorar entornos virtuales de WSL y Windows
+venv/
+.VSCodeCounter/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pdb
+*.sqlite3
+
+# 🚀 Ignorar archivos específicos de Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# 🚀 Archivos de configuraciones y logs de Python
+*.log
+*.env
+.envrc
+*.swp
+*.swo
+
+# 🚀 Archivos de configuración de VS Code y PyCharm
+.vscode/
+.idea/
+
+# 🚀 Evitar diferencias en saltos de línea entre Windows y WSL
+*.bak
+*.orig
+*.rej
+
+# 🚀 Evitar conflictos de paquetes en WSL y Windows
+pip-selfcheck.json
